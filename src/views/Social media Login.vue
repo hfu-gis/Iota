@@ -45,7 +45,7 @@
 <script>
 export default {
   // gebt jeder Page einen eigenen Namen
-  name: 'template',
+  name: 'socialmedia',
 
   // benötigte Komponenten
   components: {},
