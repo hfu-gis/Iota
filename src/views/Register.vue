@@ -55,7 +55,7 @@
 <script>
 export default {
   // gebt jeder Page einen eigenen Namen
-  name: 'template',
+  name: 'Register',
 
   // benötigte Komponenten
   components: {},
