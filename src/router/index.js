@@ -4,7 +4,7 @@ import Login from '../views/Login'
 import HelloWorld from "../components/HelloWorld";
 import AppLogin from "../views/AppLogin";
 import socialmedia from "../views/Social media Login";
-
+import Register from "../views/Register";
 Vue.use(VueRouter)
 
 export default new VueRouter({
