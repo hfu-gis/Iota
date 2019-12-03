@@ -1,7 +1,5 @@
 <template>
   <div class="body-1">
-    <body>
-
     <h2>Modal Signup Form</h2>
 
     <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
@@ -35,20 +33,6 @@
         </div>
       </form>
     </div>
-
-    <script>
-      // Get the modal
-      var modal = document.getElementById('id01');
-
-      // When the user clicks anywhere outside of the modal, close it
-      window.onclick = function(event) {
-        if (event.target == modal) {
-          modal.style.display = "none";
-        }
-      }
-    </script>
-
-    </body>
   </div>
 </template>
 
@@ -80,7 +64,7 @@ export default {
 </script>
 
 <style scoped>
-  <style>
+
   body {font-family: Arial, Helvetica, sans-serif;}
   * {box-sizing: border-box;}
 
@@ -190,5 +174,5 @@ export default {
       width: 100%;
     }
   }
-  </style>
+
 </style>

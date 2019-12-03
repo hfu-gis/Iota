@@ -13,10 +13,10 @@
         </div>
 
         <div class="container">
-          <label for="uname"><b>Username</b></label>
-          <input type="text" placeholder="Enter Username" name="uname" required>
+          <!--<label for="uname"><b>Username</b></label>-->
+          <!--<input type="text" placeholder="Enter Username" name="uname" required>-->
 
-          <label for="psw"><b>Password</b></label>
+          <!--<label for="psw"><b>Password</b></label>-->
           <input type="password" placeholder="Enter Password" name="psw" required>
 
           <button type="submit">Login</button>
@@ -62,9 +62,6 @@ export default {
 </script>
 
 <style scoped>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-                                                                     <style>
-                                                                     body {font-family: Arial, Helvetica, sans-serif;}
 
   /* Full-width input fields */
   input[type=text], input[type=password] {
@@ -185,4 +182,4 @@ export default {
     }
   }
   </style>
-</style>
+

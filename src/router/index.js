@@ -5,6 +5,7 @@ import HelloWorld from "../components/HelloWorld";
 import AppLogin from "../views/AppLogin";
 import Socialmedia from "../views/Social media Login";
 import Register from "../views/Register";
+import Konto from "../views/Konto";
 Vue.use(VueRouter)
 
 export default new VueRouter({
@@ -21,5 +22,9 @@ export default new VueRouter({
             path: '/AppLogin',
             component: AppLogin
         },
+
+
+        {   path: '/Register',
+            component: Register},
     ]
 })
