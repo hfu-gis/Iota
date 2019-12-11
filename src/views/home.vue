@@ -1,11 +1,6 @@
 <template>
   <div class="body-1">
-    <body>
-    <a href="Bilanz%20anzeigen.html">Bilanz anzeigen</a>
-    <a href="Sparen.html">Sparen</a>
-    <a href="Kontostand.html">Kontostand</a>
-
-    </body>
+   Das ist eine Homeseite
   </div>
 </template>
 
