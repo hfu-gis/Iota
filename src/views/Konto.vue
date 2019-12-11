@@ -7,7 +7,7 @@
     <
     </body>
   </div>
-  
+
 </template>
 
 <script>

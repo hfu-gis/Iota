@@ -11,10 +11,6 @@ Vue.use(VueRouter)
 export default new VueRouter({
     routes: [
         {
-            path: '/home',
-            component: HelloWorld
-        },
-        {
             path: '/login',
             component: Login
         },
