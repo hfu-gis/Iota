@@ -6,6 +6,7 @@ import AppLogin from "../views/AppLogin";
 import Socialmedia from "../views/Social media Login";
 import Register from "../views/Register";
 import Konto from "../views/Konto";
+import Bezahlen from "../views/Bezahlen";
 Vue.use(VueRouter)
 
 export default new VueRouter({
@@ -18,6 +19,11 @@ export default new VueRouter({
             path: '/AppLogin',
             component: AppLogin
         },
+        {
+            path: '/Bezahlen',
+            component: Bezahlen
+        },
+
 
 
         {   path: '/Register',
