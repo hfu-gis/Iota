@@ -1,13 +1,12 @@
 <template>
   <div class="body-1">
-    <body>
-    <a href="Bilanz%20anzeigen.html">Bilanz anzeigen</a>
-    <a href="Sparen.html">Sparen</a>
-    <a href="Kontostand.html">Kontostand</a>
+    <!-- HTML-Code aus dem Body-Tag hier einfügen -->
 
-    </body>
+
+    <v-button small>Paypal
+
+    </v-button>
   </div>
-
 </template>
 
 <script>

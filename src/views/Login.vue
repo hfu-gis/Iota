@@ -85,7 +85,6 @@
 
 <script>
     export default {
-        name: 'Login',
         props: {
             source: String,
         }
