@@ -7,7 +7,7 @@ import Socialmedia from "../views/Social media Login";
 import Dashboard from "../views/Dashboard";
 import Konto from "../views/Konto";
 import Bezahlen from "../views/Bezahlen";
-
+import Register from "../views/Register";
 Vue.use(VueRouter)
 
 //let Dashboard;
@@ -20,6 +20,10 @@ export default new VueRouter({
         {
             path: '/AppLogin',
             component: AppLogin
+        },
+        {
+            path: '/Register',
+            component: Register
         },
         {
             path: '/Bezahlen',
