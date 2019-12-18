@@ -8,7 +8,8 @@
               clipped
       >
         <v-list dense>
-          <v-list-item link>
+
+          <v-list-item link :to="{name:'Dashboard'}">
             <v-list-item-action>
               <v-icon>mdi-view-dashboard</v-icon>
             </v-list-item-action>
@@ -16,15 +17,8 @@
               <v-list-item-title>Dashboard</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
-          <v-list-item link>
-            <v-icon>mdi-view-dashboard</v-icon>
-              <v-list-item-action>
-            </v-list-item-action>
-            <v-list-item-content>
-              <v-list-item-title>Login</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-          <v-list-item link :to="{AppLogin:'/home'}">
+
+          <v-list-item link :to="{name:'Bezahlen'}">
             <v-list-item-action>
               <v-icon>mdi-settings</v-icon>
             </v-list-item-action>
@@ -56,18 +50,12 @@
               clipped-left
       >
         <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-        <v-toolbar-title>Application</v-toolbar-title>
+        <v-toolbar-title>Finanz App</v-toolbar-title>
       </v-app-bar>
 
-      <v-content>
-        <v-container
-                class="fill-height"
-                fluid
-        >
-
-              <router-view  @login="isLoggedIn=$event"/>
-
-
+      <v-content light>
+        <v-container>
+          <router-view></router-view>
         </v-container>
       </v-content>
 
@@ -103,7 +91,7 @@
   Blog
   About
 
-
+</template>
 
 <script>
 import HelloWorld from './components/HelloWorld';

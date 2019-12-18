@@ -1,13 +1,16 @@
 <template>
-  <div class="body-1">
+  <div class="Dashboard">
+    <h1>Dashboard</h1>
     <!-- HTML-Code aus dem Body-Tag hier einfügen -->
+    test
   </div>
+
 </template>
 
 <script>
 export default {
   // gebt jeder Page einen eigenen Namen
-  name: 'template',
+  name: 'Dashboard',
 
   // benötigte Komponenten
   components: {},
