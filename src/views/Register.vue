@@ -2,7 +2,6 @@
   <div class="body-1">
     <h2>Modal Signup Form</h2>
 
-    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
 
 
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
