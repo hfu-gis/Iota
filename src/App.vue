@@ -27,7 +27,7 @@
             </v-list-item-content>
           </v-list-item>
 
-          <v-list-item link :to="{name:'AppLogin'}">
+          <v-list-item link :to="{path:'AppLogin'}">
             <v-list-item-action>
               <v-icon>mdi-view-dashboard</v-icon>
             </v-list-item-action>
