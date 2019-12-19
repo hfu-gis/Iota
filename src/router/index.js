@@ -19,10 +19,12 @@ export default new VueRouter({
         },
         {
             path: '/AppLogin',
+            name: AppLogin,
             component: AppLogin
         },
         {
             path: '/Register',
+            name: 'Register',
             component: Register
         },
         {

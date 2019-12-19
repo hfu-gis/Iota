@@ -4,7 +4,6 @@
 
     <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
-    <div id="id01" class="modal">
 
       <form class="modal-content animate" action="/action_page.php" method="post">
         <div class="imgcontainer">
@@ -30,7 +29,6 @@
           <span class="psw">Forgot <a href="#">password?</a></span>
         </div>
       </form>
-    </div>
   </div>
 </template>
 
