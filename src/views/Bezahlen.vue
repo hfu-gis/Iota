@@ -3,9 +3,10 @@
     <!-- HTML-Code aus dem Body-Tag hier einfügen -->
 
 
-    <v-button small>Paypal
+    <v-button small style="color: black">Paypal
 
     </v-button>
+    <v-text-field  label="passwort"></v-text-field>
   </div>
 </template>
 

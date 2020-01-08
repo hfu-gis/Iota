@@ -1,34 +1,23 @@
 <template>
-  <div class="body-1">
-   Das ist eine Homeseite
+  <div class="home">
+      <v-row justify="right">
+          <v-date-picker v-model="date1" :show-current="false"></v-date-picker>
+
+      </v-row>
   </div>
 </template>
 
 <script>
-export default {
-  // gebt jeder Page einen eigenen Namen
-  name: 'template',
+    export default {
+        data () {
+            return {
+                date1: new Date().toISOString().substr(0, 10),
 
-  // benötigte Komponenten
-  components: {},
+            }
+        },
+    }
 
-  // entspricht den HTML-Attributen
-  props: {},
 
-  // Variablen-Speicher
-  data() {
-    return {}
-  },
-
-  // reagieren auf prop-Veränderung
-  watch: {},
-
-  // interne Methoden
-  methods: [],
-
-  // Initialisierung
-  created() {}
-}
 </script>
 
 <style scoped>

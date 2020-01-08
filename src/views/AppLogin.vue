@@ -1,6 +1,6 @@
 <template>
   <div class="body-1">
-    <h2>Modal Login Form</h2>
+    <h2  style="color: black">Modal Login Form</h2>
 
 
 
@@ -12,7 +12,7 @@
         </div>
 
         <div class="container">
-          <label for="uname"><b>Username</b></label>
+          <label for="uname"  style="color: black"><b>Username</b></label>
           <input type="text" placeholder="Enter Username" name="uname" required>
 
           <!--<label for="psw"><b>Password</b></label>-->
