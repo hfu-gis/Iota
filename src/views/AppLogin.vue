@@ -1,32 +1,20 @@
 <template>
   <div class="body-1">
-    <h2  style="color: black">Modal Login Form</h2>
 
-
-
-
-      <form class="modal-content animate" action="/action_page.php" method="post">
+      <form class="modal-content" action="/action_page.php" method="post">
         <div class="imgcontainer">
-          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-          <img src="img_avatar2.png" alt="Avatar" class="avatar">
+          <h1>Einloggen</h1>
         </div>
 
         <div class="container">
-          <label for="uname"  style="color: black"><b>Username</b></label>
-          <input type="text" placeholder="Enter Username" name="uname" required>
+          <label style="color: black"><b>Benutzername</b></label>
+          <input type="text" placeholder="Benutzername" name="uname" required>
 
-          <!--<label for="psw"><b>Password</b></label>-->
-          <input type="password" placeholder="Enter Password" name="psw" required>
+          <label style="color: black"><b>Passwort</b></label>
+          <input type="password" placeholder="Passwort" name="psw" required>
 
           <button type="submit">Login</button>
-          <label>
-            <input type="checkbox" checked="checked" name="remember"> Remember me
-          </label>
-        </div>
 
-        <div class="container" style="background-color:#f1f1f1">
-          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-          <span class="psw">Forgot <a href="#">password?</a></span>
         </div>
       </form>
   </div>
@@ -69,11 +57,18 @@ export default {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    background: #c0bfbf;
+  }
+
+  h1{
+    color: black;
+    margin-left: 2%;
+    float: left;
   }
 
   /* Set a style for all buttons */
   button {
-    background-color: #8800ff;
+    background-color: #424242;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -86,33 +81,17 @@ export default {
     opacity: 0.8;
   }
 
-  /* Extra styles for the cancel button */
-  .cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #f44336;
-  }
-
   /* Center the image and position the close button */
   .imgcontainer {
     text-align: center;
-    margin: 24px 0 12px 0;
+    margin: 24px 0 51px 0;
     position: relative;
-  }
-
-  img.avatar {
-    width: 40%;
-    border-radius: 50%;
   }
 
   .container {
     padding: 16px;
   }
 
-  span.psw {
-    float: right;
-    padding-top: 16px;
-  }
 
   /* The Modal (background) */
   .modal {
@@ -131,7 +110,7 @@ export default {
 
   /* Modal Content/Box */
   .modal-content {
-    background-color: #fefefe;
+    background-color: #f0f0f0;
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
