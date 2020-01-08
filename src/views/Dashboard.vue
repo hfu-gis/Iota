@@ -1,6 +1,6 @@
 <template>
   <div class="Dashboard">
-    <h1 style="color: black">Dashboard</h1>
+    <h1 style="color: black">Dashboard 1</h1>
     <!-- HTML-Code aus dem Body-Tag hier einfügen -->
     <span style="color: black">Ausgaben/Einnahmen</span>
     <v-card
