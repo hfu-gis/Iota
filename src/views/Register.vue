@@ -12,16 +12,16 @@
           <hr>
 
 
-          <label for="name"><b>Name</b></label>
+          <label for="name" style="color:black"><b>Name</b></label>
           <input type="text" placeholder="Enter Name" name="name" required>
 
-          <label for="email"><b>Email</b></label>
+          <label for="email" style="color:black"><b>Email</b></label>
           <input type="text" placeholder="Enter Email" name="email" required>
 
-          <label for="psw"><b>Password</b></label>
+          <label for="psw" style="color:black"><b>Password</b></label>
           <input type="password" placeholder="Enter Password" name="psw" required>
 
-          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <label for="psw-repeat" style="color:black"><b>Repeat Password</b></label>
           <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
 
           <label>
