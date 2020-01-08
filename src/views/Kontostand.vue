@@ -1,11 +1,5 @@
 <template>
-  <div class="Kontostand">
-ddddddd
-    <body>
 
-    <p> Ihr Kontostand beträgt: </p>
-    </body>
-  </div>
 </template>
 
 <script>
@@ -21,6 +15,7 @@ export default {
 
   // Variablen-Speicher
   data() {
+
     return {}
   },
 
@@ -32,9 +27,14 @@ export default {
 
   // Initialisierung
   created() {}
+
 }
+
+
+
 </script>
 
 <style scoped>
-/* CSS für diese Seite hier einfügen */
+
+
 </style>
