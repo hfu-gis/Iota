@@ -1,76 +1,77 @@
 <template>
   <div class="body-1">
-    <h2>Modal Signup Form</h2>
+    <form class="modal-content" action="/action_page.php">
+      <div class="container">
+        <h1>Registrieren</h1>
+        <p>Bitte füllen Sie dieses Formular aus um sich zu registrieren.</p>
+        <hr>
+        <label for="name" style="color:black"><b>Name</b></label>
+        <input type="text" placeholder=" Vor- und Nachname" name="name" required>
+
+        <label for="email" style="color:black"><b>Email</b></label>
+        <input type="text" placeholder="Email-Adresse" name="email" required>
+
+        <label for="psw-repeat" style="color:black"><b>Ihre IBAN</b></label>
+        <input type="password" placeholder="IBAN" name="psw-repeat" required>
+
+        <label for="psw" style="color:black"><b>Passwort</b></label>
+        <input type="password" placeholder="Passwort" name="psw" required>
+
+        <label for="psw-repeat" style="color:black"><b>Passwort bestätigen</b></label>
+        <input type="password" placeholder="Passwort" name="psw-repeat" required>
 
 
-
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <form class="modal-content" action="/action_page.php">
-        <div class="container">
-          <h1>Sign Up</h1>
-          <p>Please fill in this form to create an account.</p>
-          <hr>
-
-
-          <label for="name" style="color:black"><b>Name</b></label>
-          <input type="text" placeholder="Enter Name" name="name" required>
-
-          <label for="email" style="color:black"><b>Email</b></label>
-          <input type="text" placeholder="Enter Email" name="email" required>
-
-          <label for="psw" style="color:black"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
-
-          <label for="psw-repeat" style="color:black"><b>Repeat Password</b></label>
-          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-
-          <label>
-            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-          </label>
-
-          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-
-          <div class="clearfix">
-            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-            <button type="submit" class="signupbtn">Sign Up</button>
-          </div>
+        <div class="clearfix">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Abbrechen</button>
+          <button type="submit" class="signupbtn">Registrieren</button>
         </div>
-      </form>
-    </div>
+      </div>
+    </form>
+  </div>
 
 </template>
 
 <script>
-export default {
-  // gebt jeder Page einen eigenen Namen
-  name: 'Register',
+  export default {
+    // gebt jeder Page einen eigenen Namen
+    name: 'Register',
 
-  // benötigte Komponenten
-  components: {},
+    // benötigte Komponenten
+    components: {},
 
-  // entspricht den HTML-Attributen
-  props: {},
+    // entspricht den HTML-Attributen
+    props: {},
 
-  // Variablen-Speicher
-  data() {
-    return {}
-  },
+    // Variablen-Speicher
+    data() {
+      return {}
+    },
 
-  // reagieren auf prop-Veränderung
-  watch: {},
+    // reagieren auf prop-Veränderung
+    watch: {},
 
-  // interne Methoden
-  methods: [],
+    // interne Methoden
+    methods: [],
 
-  // Initialisierung
-  created() {}
-}
+    // Initialisierung
+    created() {}
+  }
 </script>
 
 <style scoped>
 
   body {font-family: Arial, Helvetica, sans-serif;}
   * {box-sizing: border-box;}
+  h1{
+    color: black;
+    margin-bottom: 2%;
+  }
+
+  p{
+    color: black;
+  }
+
+
 
   /* Full-width input fields */
   input[type=text], input[type=password] {
@@ -79,7 +80,8 @@ export default {
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
-    background: #f1f1f1;
+    background: #c0bfbf;
+    color: black;
   }
 
   /* Add a background color when the inputs get focus */
@@ -90,7 +92,7 @@ export default {
 
   /* Set a style for all buttons */
   button {
-    background-color: #8800ff;
+    background-color: #424242;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -107,7 +109,7 @@ export default {
   /* Extra styles for the cancel button */
   .cancelbtn {
     padding: 14px 20px;
-    background-color: #f44336;
+    background-color: #fd5151;
   }
 
   /* Float cancel and signup buttons and add an equal width */
@@ -137,7 +139,7 @@ export default {
 
   /* Modal Content/Box */
   .modal-content {
-    background-color: #fefefe;
+    background-color: #f0f0f0;
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
