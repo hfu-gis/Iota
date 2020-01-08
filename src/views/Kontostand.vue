@@ -1,5 +1,6 @@
 <template>
-  <div class="body-1">
+  <div class="Kontostand">
+ddddddd
     <body>
 
     <p> Ihr Kontostand beträgt: </p>
@@ -10,7 +11,7 @@
 <script>
 export default {
   // gebt jeder Page einen eigenen Namen
-  name: 'template',
+  name: 'Kontostand',
 
   // benötigte Komponenten
   components: {},

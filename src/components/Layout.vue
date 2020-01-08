@@ -2,7 +2,7 @@
   <v-app id="inspire">
     <v-navigation-drawer
       v-model="drawer"
-      app
+      app dark
       right
     >
       <v-list dense>
@@ -56,6 +56,7 @@
       <v-btn icon :to="{name:'Login'}">
         <v-icon>mdi-login</v-icon>
       </v-btn>
+
 
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
     </v-app-bar>
