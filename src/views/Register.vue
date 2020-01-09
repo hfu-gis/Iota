@@ -11,8 +11,8 @@
         <label for="email" style="color:black"><b>Email</b></label>
         <input type="text" placeholder="Email-Adresse" name="email" required>
 
-        <label for="psw-repeat" style="color:black"><b>Ihre IBAN</b></label>
-        <input type="password" placeholder="IBAN" name="psw-repeat" required>
+        <label for="psw-repeat" style="color:black"><b>Ihre Kreditkarte</b></label>
+        <input type="password" placeholder="Ihre Kreditkarte" name="psw-repeat" required>
 
         <label for="psw" style="color:black"><b>Passwort</b></label>
         <input type="password" placeholder="Passwort" name="psw" required>
