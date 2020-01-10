@@ -16,12 +16,9 @@ export default new VueRouter({
     routes: [
         {
             path: '/',
-            component: Login
+            component:home
         },
-        {
-            path: '/login',
-            component: Login
-        },
+
         {
             path: '/AppLogin',
             name: AppLogin,

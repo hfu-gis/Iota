@@ -73,7 +73,7 @@
             clipped-left
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-toolbar-title>Finanz App</v-toolbar-title>
+      <v-toolbar-title>BankBros</v-toolbar-title>
     </v-app-bar>
 
     <v-content style="background: lightsteelblue; width: 100%; height: 100%;">
