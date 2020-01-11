@@ -2,7 +2,7 @@
     <div class="Dashboard">
         <h1 style="color: black">Dashboard </h1>
         <!-- HTML-Code aus dem Body-Tag hier einfügen -->
-        <span style="color: black">Ausgaben/Einnahmen</span>
+        <span style="color: black">Ausgaben</span>
 
 
         <v-row style="width: 100%">
@@ -47,7 +47,7 @@
                         <thead>
                         <tr>
                             <th class="text-left">Name</th>
-                            <th class="text-left">Calories</th>
+                            <th class="text-left">Preis</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -91,44 +91,28 @@
 
             Products: [
                 {
-                    name: 'Frozen Yogurt',
-                    price: 159,
+                    name: 'Edeka',
+                    price: 65.37,
                 },
                 {
-                    name: 'Ice cream sandwich',
-                    price: 237,
+                    name: 'Shell',
+                    price: 54.97,
                 },
                 {
-                    name: 'Eclair',
-                    price: 262,
+                    name: 'Apple',
+                    price: 900,
                 },
                 {
-                    name: 'Cupcake',
-                    price: 305,
+                    name: 'Snipes',
+                    price: 120,
                 },
                 {
-                    name: 'Gingerbread',
-                    price: 356,
+                    name: 'Clever Fit',
+                    price: 29.99,
                 },
                 {
-                    name: 'Jelly bean',
-                    price: 375,
-                },
-                {
-                    name: 'Lollipop',
-                    price: 392,
-                },
-                {
-                    name: 'Honeycomb',
-                  price: 408,
-                },
-                {
-                    name: 'Donut',
-                  price: 452,
-                },
-                {
-                    name: 'KitKat',
-                    price: 518,
+                    name: 'Douglas',
+                  price: 29.67,
                 },
             ]
             /*Products: []*/
