@@ -47,7 +47,7 @@
 
         <v-list-item link :to="{name:'Bezahlen'}">
           <v-list-item-action>
-            <v-icon>mdi-settings</v-icon>
+            <v-icon>mdi-cart</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>Bezahlen</v-list-item-title>
