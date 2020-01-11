@@ -31,7 +31,7 @@
                     </v-card-text>
 
                     <v-card-text>
-                        <div class="display-1 font-weight-thin">Ausgaben der letzten 24h</div>
+                        <div class="display-1 font-weight-thin">Ausgaben der letzten Woche</div>
                     </v-card-text>
 
                     <v-divider></v-divider>
@@ -80,13 +80,13 @@
             user: [],
 
             value: [
-                0,
-                200,
-                400,
-                600,
-                800,
-                1000,
-                1200,
+                0 ,
+                65.37,
+                54.97,
+                450,
+                120,
+                29.99,
+                38.29,
             ],
 
             Products: [
@@ -100,7 +100,7 @@
                 },
                 {
                     name: 'Apple',
-                    price: 900,
+                    price: 450,
                 },
                 {
                     name: 'Snipes',
@@ -112,7 +112,7 @@
                 },
                 {
                     name: 'Douglas',
-                  price: 29.67,
+                  price: 38.29,
                 },
             ]
             /*Products: []*/
