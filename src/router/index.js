@@ -9,6 +9,7 @@ import Kontostand from "../views/Kontostand";
 import Bezahlen from "../views/Bezahlen";
 import Register from "../views/Register";
 import home from "../views/home";
+import Settings from "../views/Settings";
 Vue.use(VueRouter)
 
 //let Dashboard;
@@ -36,7 +37,6 @@ export default new VueRouter({
         },
 
 
-
         {   path: '/Dashboard',
             name: 'Dashboard',
             component: Dashboard
@@ -51,6 +51,13 @@ export default new VueRouter({
             path: '/Kontostand',
             name:'Kontostand',
             component: Kontostand
+        },
+
+        {
+            path: '/Settings',
+            name:'Settings',
+            component: Settings
         }
+
     ]
 })
