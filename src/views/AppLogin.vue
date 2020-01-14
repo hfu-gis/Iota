@@ -58,6 +58,7 @@
     border: 1px solid #ccc;
     box-sizing: border-box;
     background: #c0bfbf;
+    color: black;
   }
 
   h1{
