@@ -1,29 +1,18 @@
 <template>
   <div class="body-1">
 
-    <form class="modal-content" action="/action_page.php" method="post">
-      <div class="imgcontainer">
-        <h1>Einloggen</h1>
-      </div>
 
-      <div class="container">
-        <label style="color: black"><b>Benutzername</b></label>
-        <input type="text" placeholder="Benutzername" name="uname" required>
-
-        <label style="color: black"><b>Passwort</b></label>
-        <input type="password" placeholder="Passwort" name="psw" required>
-
-        <button type="submit">Login</button>
-
-      </div>
-    </form>
+    <h1>Einstellungen</h1><br>
+    <button type="button" onclick="alert('Hier können Sie in der fertigen App die Einstellungen für ihr Konto vornehmen!')">Kontoeinstellungen</button>
+    <button type="button" onclick="alert('Hier können Sie wählen, welche Zahlungseinstellungen Sie verwenden wollen!')">Zahlungseinstellungen</button>
+    <button type="button" onclick="alert('Hier gelangen Sie in das Menu, in dem Sie Ihre Kontaktdaten anpassen können!')">Kontaktdaten</button>
   </div>
 </template>
 
 <script>
   export default {
     // gebt jeder Page einen eigenen Namen
-    name: 'AppLogin',
+    name: 'Settings',
 
     // benötigte Komponenten
     components: {},

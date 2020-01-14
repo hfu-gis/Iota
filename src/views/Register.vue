@@ -1,75 +1,75 @@
 <template>
   <div class="body-1">
-      <form class="modal-content" action="/action_page.php">
-        <div class="container">
-          <h1>Registrieren</h1>
-          <p>Bitte füllen Sie dieses Formular aus um sich zu registrieren.</p>
-          <hr>
-          <label for="name" style="color:black"><b>Name</b></label>
-          <input type="text" placeholder=" Vor- und Nachname" name="name" required>
+    <form class="modal-content" action="/action_page.php">
+      <div class="container">
+        <h1>Registrieren</h1>
+        <p>Bitte füllen Sie dieses Formular aus um sich zu registrieren.</p>
+        <hr>
+        <label for="name" style="color:black"><b>Name</b></label>
+        <input type="text" placeholder=" Vor- und Nachname" name="name" required>
 
-          <label for="email" style="color:black"><b>Email</b></label>
-          <input type="text" placeholder="Email-Adresse" name="email" required>
+        <label for="email" style="color:black"><b>Email</b></label>
+        <input type="text" placeholder="Email-Adresse" name="email" required>
 
-            <label for="psw-repeat" style="color:black"><b>Ihre IBAN</b></label>
-            <input type="password" placeholder="IBAN" name="psw-repeat" required>
+        <label for="psw-repeat" style="color:black"><b>Ihre Kreditkarte</b></label>
+        <input type="password" placeholder="Ihre Kreditkarte" name="psw-repeat" required>
 
-          <label for="psw" style="color:black"><b>Passwort</b></label>
-          <input type="password" placeholder="Passwort" name="psw" required>
+        <label for="psw" style="color:black"><b>Passwort</b></label>
+        <input type="password" placeholder="Passwort" name="psw" required>
 
-          <label for="psw-repeat" style="color:black"><b>Passwort bestätigen</b></label>
-          <input type="password" placeholder="Passwort" name="psw-repeat" required>
+        <label for="psw-repeat" style="color:black"><b>Passwort bestätigen</b></label>
+        <input type="password" placeholder="Passwort" name="psw-repeat" required>
 
 
-            <div class="clearfix">
-            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Abbrechen</button>
-            <button type="submit" class="signupbtn">Registrieren</button>
-          </div>
+        <div class="clearfix">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Abbrechen</button>
+          <button type="submit" class="signupbtn">Registrieren</button>
         </div>
-      </form>
-    </div>
+      </div>
+    </form>
+  </div>
 
 </template>
 
 <script>
-export default {
-  // gebt jeder Page einen eigenen Namen
-  name: 'Register',
+  export default {
+    // gebt jeder Page einen eigenen Namen
+    name: 'Register',
 
-  // benötigte Komponenten
-  components: {},
+    // benötigte Komponenten
+    components: {},
 
-  // entspricht den HTML-Attributen
-  props: {},
+    // entspricht den HTML-Attributen
+    props: {},
 
-  // Variablen-Speicher
-  data() {
-    return {}
-  },
+    // Variablen-Speicher
+    data() {
+      return {}
+    },
 
-  // reagieren auf prop-Veränderung
-  watch: {},
+    // reagieren auf prop-Veränderung
+    watch: {},
 
-  // interne Methoden
-  methods: [],
+    // interne Methoden
+    methods: [],
 
-  // Initialisierung
-  created() {}
-}
+    // Initialisierung
+    created() {}
+  }
 </script>
 
 <style scoped>
 
   body {font-family: Arial, Helvetica, sans-serif;}
   * {box-sizing: border-box;}
-    h1{
-        color: black;
-        margin-bottom: 2%;
-    }
+  h1{
+    color: black;
+    margin-bottom: 2%;
+  }
 
-    p{
-        color: black;
-    }
+  p{
+    color: black;
+  }
 
 
 
@@ -81,7 +81,7 @@ export default {
     display: inline-block;
     border: none;
     background: #c0bfbf;
-      color: black;
+    color: black;
   }
 
   /* Add a background color when the inputs get focus */

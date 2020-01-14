@@ -2,15 +2,14 @@ import firebase from 'firebase/app'
 import 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBX_J8tsYxFeTpX4RL1sJeYrs_Fti9QI-U",
-  authDomain: "grasshoppers-cd34e.firebaseapp.com",
-  databaseURL: "https://grasshoppers-cd34e.firebaseio.com",
-  projectId: "grasshoppers-cd34e",
-  storageBucket: "grasshoppers-cd34e.appspot.com",
-  messagingSenderId: "593907011991",
-  appId: "1:593907011991:web:b8508d375c11c6f8c5f4d2",
-  measurementId: "G-L62LQEF4J1"
-}
+  apiKey: "AIzaSyDuQ9FvFR98RmcxRs6z-u2hO4ZZUsSXafo",
+  authDomain: "iota-15732.firebaseapp.com",
+  databaseURL: "https://iota-15732.firebaseio.com",
+  projectId: "iota-15732",
+  storageBucket: "iota-15732.appspot.com",
+  messagingSenderId: "511740795807",
+  appId: "1:511740795807:web:4f091f34289c3e6a833baa"
+};
 const db = firebase.initializeApp(firebaseConfig).firestore()
 export default db
 
