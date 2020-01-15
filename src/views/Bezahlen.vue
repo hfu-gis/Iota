@@ -7,17 +7,17 @@
 
       <div class="wallet-header wallet-widget__header">
 
-        <h2 class="wallet-widget__title">Bezahlungsmöglichkeiten</h2><!-- /.wallet-widget__title -->
+        <h2 class="wallet-widget__title">Bezahlungsmöglichkeiten</h2> <!-- /.Überschrift2 -->
 
 
       </div>
       <!-- /.wallet__header -->
 
-      <div class="wallet-cards">
+      <div class="wallet-cards"> <!-- alle Karten Container -->
 
         <div class="wallet-card wallet-card--visa wallet-card--is-active" data-balance-dollars="729" data-balance-cents="00" data-card="2562">
 
-          <div class="wallet-card__content">
+          <div class="wallet-card__content"><!-- 1. Karte Visa-->
 
             <div class="wallet-card__logo wallet-card__logo--visa"></div><!-- /.wallet-card__logo wallet-card__logo--visa -->
             <span class="wallet-card__number"><span class="wallet-card__number--astricks">**** **** ****</span> 2562</span>
@@ -29,7 +29,7 @@
         </div>
         <!-- /.wallet-card -->
 
-        <div class="wallet-card wallet-card--amex" data-balance-dollars="829" data-balance-cents="50" data-card="2100">
+        <div class="wallet-card wallet-card--amex" data-balance-dollars="829" data-balance-cents="50" data-card="2100"> <!-- 2. Karte -->
 
           <div class="wallet-card__content">
 
@@ -42,7 +42,7 @@
         </div>
         <!-- /.wallet-card -->
 
-        <div class="wallet-card wallet-card--master-card" data-balance-dollars="929" data-balance-cents="74" data-card="8335">
+        <div class="wallet-card wallet-card--master-card" data-balance-dollars="929" data-balance-cents="74" data-card="8335"> <!-- 3. Karte-->
 
           <div class="wallet-card__content">
 
@@ -643,7 +643,6 @@
 
 <style scoped>
 
-  @import url(https://fonts.googleapis.com/css?family=Roboto:700,400|Open+Sans:400,700,600);
   body {
     color: #999999;
     font-family: "Open Sans", sans-serif;

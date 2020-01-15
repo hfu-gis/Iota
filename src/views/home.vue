@@ -61,7 +61,6 @@
 
     #flip > div > div {
         color:#fff;
-        padding:4px 12px;
         height:45px;
         margin-bottom:45px;
         display:inline-block;
